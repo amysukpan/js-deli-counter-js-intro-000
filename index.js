@@ -1,9 +1,13 @@
 var katzDeli = [];
-function takeANumber(katzDeliLine,customerName){
 
+function takeANumber(katzDeliLine,customerName){
+  katzDeliLine.push(customerName)
+  return katzDeliLine.length - 1
 }
+
 function nowServing(){
 
+//"There is nobody waiting to be served!"
 }
 
 function currentLine(katzDeliLine){
