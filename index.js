@@ -13,7 +13,7 @@ function currentLine(katzDeliLine){
   var i=0
   if (line != 0) {
     while (i<line){
-      lineResult= `${i+1}. ${katzDeliLine[i]}`
+      lineResult= `${i+1}. ${katzDeliLine[i++]}`
     }
   }
   else {
