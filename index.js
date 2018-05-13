@@ -17,7 +17,7 @@ function currentLine(katzDeliLine){
     }
   }
   else {
-    lineResult='empty'
+    lineResult='empty.'
   }
   return currentLineResult + lineResult
 }
