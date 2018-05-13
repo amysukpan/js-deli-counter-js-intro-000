@@ -7,7 +7,7 @@ function nowServing(){
 }
 
 function currentLine(katzDeliLine){
-  var currentLineResult = 'The line is currently '
+  var currentLineResult = 'The line is currently'
   var lineResult=''
   var line= katzDeliLine.length
   var i=0
@@ -20,7 +20,7 @@ function currentLine(katzDeliLine){
     }
   }
   else {
-    lineResult='empty.'
+    lineResult=' empty.'
   }
   return currentLineResult + lineResult
 }
