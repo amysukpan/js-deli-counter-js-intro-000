@@ -12,8 +12,11 @@ function currentLine(katzDeliLine){
   var line= katzDeliLine.length
   var i=0
   if (line != 0) {
+    if (i==0){
+      lineResult +=`: ${i+1}. ${katzDeliLine[i++]}`
+    }
     while (i<line){
-      lineResult += `${i+1}. ${katzDeliLine[i++]} ,`
+      lineResult += `, ${i+1}. ${katzDeliLine[i++]}`
     }
   }
   else {
